@@ -1,12 +1,12 @@
 import BlogLayout from 'src/layouts/BlogLayout'
+import BlogPostCell from 'src/components/BlogPostsCell'
 
 const HomePage = () => {
   return (
     <BlogLayout>
       <h1>Home</h1>
       <p>
-        This site was created to demonstrate my mastery of Redwood: Look on my
-        works, ye mighty, and despair!
+        <BlogPostCell />
       </p>
     </BlogLayout>
   )
